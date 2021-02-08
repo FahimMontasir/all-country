@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>all country details</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap css file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- search area -->
+    <section class="search-background pt-5">
+        <div class="container d-flex justify-content-center">
+            <input id="input-field" type="text" class="form-control w-50 d-inline" placeholder="search any name">
+            <button onclick="getAllCountry()" class="btn btn-info ms-1">Search</button>
+        </div>
+        <h5 id="input-validation" class="text-center text-danger"></h5>
+    </section>
+
+    <!-- country-details-area section -->
+    <section class="country-details-card container-lg w-75 card mb-3 shadow d-flex justify-content-center" id="country-details-area">
+    </section>
+
+    <!-- all search items -->
+    <section id="country-items-area" class="rounded-3 d-flex flex-wrap justify-content-center">
+    </section>
+
+    <!-- js file -->
+    <script src="main.js"></script>
+</body>
+<footer><p class="text-center text-muted">developed by webgrammer fahim</p></footer>
+</html>
