@@ -1,3 +1,3 @@
 # all-country-details
 
-## [live link]()
+## [live link](https://fahimmontasir.github.io/all-country/#country-details-area)
